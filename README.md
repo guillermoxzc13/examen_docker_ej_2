@@ -8,17 +8,17 @@ En primer lugar, creamos las imágenes necesarias para nuestros servicios utiliz
 
 1. **API REST:**
     ```bash
-    docker build . -t restapi
+    docker build . -t rest
     ```
 
 2. **API SOAP:**
     ```bash
-    docker build . -t soapapi
+    docker build . -t soap
     ```
 
 3. **Cliente:**
     ```bash
-    docker build . -t client
+    docker build . -t cliente
     ```
 
 4. **MySQL:**
