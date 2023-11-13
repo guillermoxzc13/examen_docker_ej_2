@@ -44,4 +44,5 @@ Luego, procedemos a desplegar nuestros servicios utilizando Docker Swarm:
 
 - El servidor SOAP está configurado para escuchar en el puerto 4000.
 - El servidor web está alojado en `localhost:8080`.
+- Para poder visualizar la vista del html debe ingresar en http://127.0.0.1:5500/client/index.html
 
