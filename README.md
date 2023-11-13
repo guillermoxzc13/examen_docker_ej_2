@@ -8,22 +8,22 @@ En primer lugar, creamos las imágenes necesarias para nuestros servicios utiliz
 
 1. **API REST:**
     ```bash
-    docker build . -t rest
+    docker build -t rest .
     ```
 
 2. **API SOAP:**
     ```bash
-    docker build . -t soap
+    docker build -t soap .
     ```
 
 3. **Cliente:**
     ```bash
-    docker build . -t cliente
+    docker build -t cliente .
     ```
 
 4. **MySQL:**
     ```bash
-    docker build . -t mysql-image
+    docker build -t mysql-image .
     ```
 
 ### Despliegue con Docker Swarm:
