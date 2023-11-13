@@ -23,7 +23,7 @@ En primer lugar, creamos las imágenes necesarias para nuestros servicios utiliz
 
 4. **MySQL:**
     ```bash
-    docker build . -t mysql
+    docker build . -t mysql-image
     ```
 
 ### Despliegue con Docker Swarm:
